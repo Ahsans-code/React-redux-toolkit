@@ -12,6 +12,7 @@ export const todoslice=createSlice({
             id:nanoid(),
             text:action.payload
         }
+        
         state.todos.push(todo)
 
         },
